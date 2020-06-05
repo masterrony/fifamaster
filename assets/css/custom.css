@@ -1,0 +1,516 @@
+
+body {
+	max-width: 1366px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	overflow-x: scroll;
+	font-family: HelveticaNeue;
+}
+
+header.page-header {
+	height: 85px;
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+	padding-top: 26px;
+	font-family: HelveticaNeue;
+	z-index: 1000;
+	width: 100%;
+}
+
+header.page-header div.logo {
+	position: absolute;
+	left: 50%;
+	top: 26px;
+	transform: translateX(-50%);
+	width: 186px;
+	height: 59px;
+	background-color: #fff;
+}
+
+header.page-header div.logo img {
+	width: 100%;
+	height: 100%;
+}
+
+header.page-header > div.menu {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header.page-header div.menu-left {
+	margin-left: 65px;
+	height: 100%;
+	width: 34%;
+	position: relative;
+}
+
+header.page-header div.menu-left div.menu-left-list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+header.page-header div.menu-left div.menu-left-list > div {
+	text-align: center;
+	width: 25%;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+}
+
+header.page-header div.menu-right {
+	float: right;
+	display: inline-block;
+	margin-right: 55px;
+}
+
+header.page-header div.menu-right > div, header.page-header div.menu-right > button  {
+	float: right;
+}
+
+header.page-header div.menu-right button.sign-in {
+	margin: 5px 0;
+	width: 106px;
+	height: 46px;
+	border-radius: 8px;
+	border: solid 1px rgba(255, 255, 255, 0.3);
+	background-color: transparent;
+	font-family: HelveticaNeue;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	outline: none;
+}
+
+header.page-header div.menu-right div.set-region {
+	margin: 16px 0;
+	border-left: 1px solid rgba(255, 255, 255, 0.23);
+	padding: 2px 0;
+	display: inline-block;
+	width: 168px;
+}
+
+header.page-header div.menu-right div.set-region > div {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+}
+
+header.page-header div.menu-right div.set-region > div.country {
+	display: inline-block;
+}
+
+header.page-header div.menu-right div.set-region > div.currency {
+	display: inline-block;
+}
+
+header.page-header div.menu-right div.set-region > div.dropdown button.dropdown-toggle {
+	background: transparent;
+	color: #fff;
+	width: 100%;
+	outline: none;
+	border: none;
+}
+
+header.page-header div.menu-right div.social {
+	display: inline-block;
+	margin-right: 14px;
+	width: 160px;
+}
+
+header.page-header div.menu-right div.social > div {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+}
+
+section.slider {
+	position: relative;
+	width: 100%;
+	height: 643px;
+	background: url(../images/slider/background.png);
+	background-size: 100%100%;
+	overflow-y: visible;
+}
+
+section.slider div.slider-title {
+	position: absolute;
+	top: 20.5%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 345px;
+	height: 48px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff
+}
+
+section.slider div.slider-content {
+	position: absolute;
+	top: 36.4%;
+	left: 50%;
+	width: 980px;
+	transform: translateX(-50%);
+}
+
+section.slider div.slider-content div.buy-coin {
+	width: 620px;
+	height: 552px;
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.11);
+	background-color: #fffbfc;
+	text-align: center;
+	z-index: 3
+}
+
+section.slider div.slider-content div.buy-coin div.brand {
+	height: 93px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.slider div.slider-content div.buy-coin div.brand a {
+	width: 25%;
+	background-color: #d73658;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.11);
+	position: relative;
+}
+
+section.slider div.slider-content div.buy-coin div.brand a:hover {
+	background-color: #92273f;
+}
+
+section.slider div.slider-content div.buy-coin div.brand a img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section.slider div.slider-content div.buy-coin div.platform {
+	margin: 40px 42px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.slider div.slider-content div.buy-coin div.platform a {
+	width: 168px;
+	height: 54px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px -4px #f7f1f2;
+	border: solid 1px #f3edee;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	color: #514144;
+	text-align: center;
+	line-height: 54px;
+}
+
+section.slider div.slider-content div.buy-coin div.platform a:hover {
+	background-color: #fff3f6;
+	color: #c53050;
+	text-decoration: none;
+}
+section.slider div.slider-content div.buy-coin div.platform a span {
+	margin-left: 5%;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price {
+	margin-top: 36px;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.view-price {
+	display: flex;
+	margin: 0 90px;
+	justify-content: space-between;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.view-price > div {
+	width: 30%;
+	text-align: center;
+	align-self: flex-end;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.view-price > div div.label {
+	font-size: 14px;
+	color: #8f7d81;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.view-price > div div.value {
+	font-size: 28px;
+	letter-spacing: 0.5px;
+	color: #000;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.view-price > div.coins div.value {
+	font-size: 40px;
+	font-family: BebasNeue;
+	letter-spacing: 1px;
+	color: #c53050;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range {
+	margin: 34px 40px 0 40px;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-value {
+	margin: 0 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-value > div {
+	color: #c53050;
+	font-size: 14px;
+	text-align: center;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider {
+	position: relative;
+	margin-top: 6px;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.counter {
+	width: 24px;
+	height: 24px;
+	box-shadow: 0 2px 4px 0 #eec1ca;
+	border: solid 1px #c53050;
+	background-color: #fffbfc;
+	border-radius: 50%;
+	color: #c53050;
+	font-weight: bold;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.lessen {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.plus {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.price-bar {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 85.4%;
+	border: none;
+	border-top: solid 4px #e1c8cf;
+	overflow: visible;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.price-bar div.price-set {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	border: none;
+	border-top: solid 4px #c53050;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider div.price-grid {
+	display: inline-block;
+	height: 16px;
+	margin-left: 16.5%;
+	border: none;
+	border-left: solid 1px #c53050;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price div.range div.price-slider button.slider-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 43px;
+	height: 43px;
+	box-shadow: 0 8px 16px -6px #c53050;
+	background-color: #c53050;
+	border-radius: 50%;
+	text-align: center;
+}
+
+section.slider div.slider-content div.buy-coin div.set-price button.buy {
+	margin-top: 40px;
+	width: 344px;
+	height: 52px;
+	border-radius: 26px;
+	background-color: #c53050;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+
+section.slider div.slider-content div.review {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	z-index: -1;
+	width: 365px;
+	height: 512px;
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09);
+	background-color: #ffffff;
+	text-align: center;
+}
+
+section.slider div.slider-content div.review div.review-header {
+	margin-top: 48px;
+}
+
+section.slider div.slider-content div.review div.review-header img {
+	width: 24px;
+}
+
+section.slider div.slider-content div.review div.review-header div.review-count {
+	font-size: 18px;
+	font-weight: 300;
+	color: #000;
+	margin-top: 19px;
+}
+
+section.slider div.slider-content div.review div.review-header div.review-count span {
+	color: #c53050;
+}
+
+section.slider div.slider-content div.review div.review-content {
+	margin-top: 48px;
+}
+
+section.slider div.slider-content div.review div.review-content div.avatar {
+	margin-top: 11px;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
+section.slider div.slider-content div.review div.review-content div.avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+section.slider div.slider-content div.review div.review-content div.avatar span {
+	width: 28px;
+	height: 28px;
+	border: solid 2px #ffffff;
+  	background-color: #52af43;
+  	position: absolute;
+  	top: -11px;
+  	right: -11px;
+  	border-radius: 50%;
+}
+
+section.slider div.slider-content div.review div.review-content div.from {
+	margin-top: 22px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #342f30;
+}
+
+section.slider div.slider-content div.review div.review-content div.star-rating {
+	margin-top: 17px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #342f30;
+}
+
+section.slider div.slider-content div.review div.review-content div.description {
+	margin-top: 21px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #342f30;
+}
+
+section.slider div.slider-content div.review div.review-content button.see-all {
+	margin-top: 32px;
+	width: 154px;
+	height: 41px;
+	border-radius: 8px;
+	border: solid 1px #e4c0c7;
+	background-color: transparent;
+	font-size: 14px;
+	font-weight: 500;
+	color: #c53050;
+}
+
+section.slider div.slider-content div.review div.review-slider {
+	margin: 54px 32px 40px 32px;
+	position: relative;
+	text-align: center;
+}
+
+section.slider div.slider-content div.review div.review-slider div.arrow {
+	width: 8px;
+	height: 14px;
+	font-size: 100%;
+	color: #000;
+	display: block;
+}
+
+section.slider div.slider-content div.review div.review-slider div.left {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+section.slider div.slider-content div.review div.review-slider div.right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+section.slider div.slider-content div.review div.review-slider div.review-pager {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 118px;
+	height: 6px;
+}
+
+section.slider div.slider-content div.review div.review-slider div.review-pager div.dot {
+	width: 6px;
+	height: 6px;
+	background-color: #eacfd5;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+section.slider div.slider-content div.review div.review-slider div.review-pager div.active {
+	background-color: #c53050;
+}
+
+section.content {
+	width: 100%;
+	height: 199px;
+	background-color: #fff;	
+}
